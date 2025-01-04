@@ -6,7 +6,7 @@
 
 
 // fills verts and faces arrays, supposes .obj file to have "f " entries without slashes
-Model::Model(const char *filename, const Vec3f& shift) : verts(), faces() {
+Model::Model(const char *filename, const float& k, const Vec3f& shift) : verts(), faces() {
     std::ifstream in;
     in.open (filename, std::ifstream::in);
     if (in.fail()) {
@@ -22,7 +22,7 @@ Model::Model(const char *filename, const Vec3f& shift) : verts(), faces() {
             iss >> trash;
             Vec3f v;
             for (int i=0;i<3;i++) iss >> v[i];
-            verts.push_back(v + shift);
+            verts.push_back(v * k + shift);
         } else if (!line.compare(0, 2, "f ")) {
             Vec3i f;
             int idx, cnt=0;

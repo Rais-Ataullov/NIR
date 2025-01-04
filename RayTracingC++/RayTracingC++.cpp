@@ -43,7 +43,7 @@ struct ObjModel : Model {
     
     Material material;
     
-    ObjModel(const char* filename, const Vec3f&  shift, const Material& m) : Model(filename, shift), material(m) {}
+    ObjModel(const char* filename, const float& k, const Vec3f&  shift, const Material& m) : Model(filename, k, shift), material(m) {}
 };
 
 
@@ -178,7 +178,7 @@ void render(const ObjModel& model, const std::vector<Light>& lights, const Vec3f
             Vec3f dir = Vec3f(x, y, -1).normalize();
             rotation(dir, rot);
             framebuffer[i + j * width] = cast_ray(pos, dir, model, lights);
-            std::cerr << (i + j * width) << " / " << (height * width) << "  Pixel Completed\n";
+            //std::cerr << (i + j * width) << " / " << (height * width) << "  Pixel Completed\n";
         }
     }
 
@@ -199,7 +199,10 @@ void render(const ObjModel& model, const std::vector<Light>& lights, const Vec3f
 int main() {
 
     Material red_rubber(1.0, Vec4f(0.9, 0.1, 0.0, 0.0), Vec3f(0.3, 0.1, 0.1), 10.);
-    ObjModel model("duck.obj", Vec3f(-5., .13437, -10.), red_rubber);
+
+    ObjModel model1("duck.obj", 1, Vec3f(-5., .13437, -10.), red_rubber);
+
+    ObjModel model2("deer.obj", 0.01, Vec3f(2., -4.0725577, -22.), red_rubber);
 
     std::vector<Light> lights;
     lights.push_back(Light(Vec3f(30, 50, -25), 1.5));
@@ -207,20 +210,33 @@ int main() {
     lights.push_back(Light(Vec3f(31, 50, -25), 1.7));
 
     clock_t start = clock();
-
-    render(model, lights, Vec3f(0., 0., -8.), Vec3f(0., 4., 0.), "Duck/Result_0_0_0.png");
-    render(model, lights, Vec3f(10., 0., -10.), Vec3f(0., 45., 0.), "Duck/Result_0_45_0.png");
-    render(model, lights, Vec3f(10., 0., -20.), Vec3f(0., 90., 0.), "Duck/Result_0_90_0.png");
-    render(model, lights, Vec3f(10., 0., -30.), Vec3f(0., 115., 0.), "Duck/Result_0_115_0.png");
-
-    render(model, lights, Vec3f(0., 0., -34.), Vec3f(0., 180., 0.), "Duck/Result_0_180_0.png");
-    render(model, lights, Vec3f(-12., 0., -32.), Vec3f(0., -135., 0.), "Duck/Result_0_225_0.png");
-    render(model, lights, Vec3f(-12., 0., -20.), Vec3f(0., -75., 0.), "Duck/Result_0_285_0.png");
-    render(model, lights, Vec3f(-10., 0., -10.), Vec3f(0., -45., 0.), "Duck/Result_0_315_0.png");
-
+    render(model2, lights, Vec3f(0., 0., -8.), Vec3f(0., 0., 0.), "Deer/Result_0_0_0.png");
     clock_t end = clock();
     double seconds = (double)(end - start) / CLOCKS_PER_SEC;
     printf("\nThe time: %f seconds\n", seconds);
 
+
+    //render(model, lights, Vec3f(10., 0., -10.), Vec3f(0., 45., 0.), "Deer/Result_0_45_0.png");
+    //render(model, lights, Vec3f(10., 0., -30.), Vec3f(0., 115., 0.), "Deer/Result_0_115_0.png");
+    //render(model, lights, Vec3f(-12., 0., -32.), Vec3f(0., -135., 0.), "Deer/Result_0_225_0.png");
+    //render(model, lights, Vec3f(-10., 0., -10.), Vec3f(0., -45., 0.), "Deer/Result_0_315_0.png");
+    
+ 
+    start = clock();
+    render(model1, lights, Vec3f(0., 0., -8.), Vec3f(0., 0., 0.), "Duck/Result_0_0_0.png");
+    end = clock();
+    seconds = (double)(end - start) / CLOCKS_PER_SEC;
+    printf("\nThe time: %f seconds\n", seconds);
+
+
+    //render(model, lights, Vec3f(10., 0., -10.), Vec3f(0., 45., 0.), "Duck/Result_0_45_0.png");
+    //render(model, lights, Vec3f(10., 0., -20.), Vec3f(0., 90., 0.), "Duck/Result_0_90_0.png");
+    //render(model, lights, Vec3f(10., 0., -30.), Vec3f(0., 115., 0.), "Duck/Result_0_115_0.png");
+    //render(model, lights, Vec3f(0., 0., -34.), Vec3f(0., 180., 0.), "Duck/Result_0_180_0.png");
+    //render(model, lights, Vec3f(-12., 0., -32.), Vec3f(0., -135., 0.), "Duck/Result_0_225_0.png");
+    //render(model, lights, Vec3f(-12., 0., -20.), Vec3f(0., -75., 0.), "Duck/Result_0_285_0.png");
+    //render(model, lights, Vec3f(-10., 0., -10.), Vec3f(0., -45., 0.), "Duck/Result_0_315_0.png");
+
+    
     return 0;
 }

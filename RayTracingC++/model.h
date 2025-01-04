@@ -9,7 +9,7 @@ private:
     std::vector<Vec3f> verts;
     std::vector<Vec3i> faces;
 public:
-    Model(const char *filename, const Vec3f& shift);
+    Model(const char *filename, const float& k, const Vec3f& shift);
 
     int nverts() const;                          // number of vertices
     int nfaces() const;                          // number of triangles

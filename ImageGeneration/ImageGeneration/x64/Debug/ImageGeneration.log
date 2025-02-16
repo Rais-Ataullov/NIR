@@ -1,0 +1,99 @@
+﻿  RayTracingC++.cpp
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(56,17): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(57,16): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(58,17): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(101,42): warning C4267: аргумент: преобразование из "size_t" в "const int"; возможна потеря данных
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(107,50): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(107,82): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(108,50): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(108,82): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(123,51): warning C4305: аргумент: усечение из "double" в "T"
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(123,51): warning C4305:         with
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(123,51): warning C4305:         [
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(123,51): warning C4305:             T=float
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(123,51): warning C4305:         ]
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(123,47): warning C4305: аргумент: усечение из "double" в "T"
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(123,47): warning C4305:         with
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(123,47): warning C4305:         [
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(123,47): warning C4305:             T=float
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(123,47): warning C4305:         ]
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(138,16): warning C4305: аргумент: усечение из "double" в "T"
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(138,16): warning C4305:         with
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(138,16): warning C4305:         [
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(138,16): warning C4305:             T=float
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(138,16): warning C4305:         ]
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(174,26): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(180,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(181,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,41): warning C4305: аргумент: усечение из "double" в "T"
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,41): warning C4305:         with
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,41): warning C4305:         [
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,41): warning C4305:             T=float
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,41): warning C4305:         ]
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,36): warning C4305: аргумент: усечение из "double" в "T"
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,36): warning C4305:         with
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,36): warning C4305:         [
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,36): warning C4305:             T=float
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,36): warning C4305:         ]
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,73): warning C4305: аргумент: усечение из "double" в "T"
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,73): warning C4305:         with
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,73): warning C4305:         [
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,73): warning C4305:             T=float
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,73): warning C4305:         ]
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,68): warning C4305: аргумент: усечение из "double" в "T"
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,68): warning C4305:         with
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,68): warning C4305:         [
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,68): warning C4305:             T=float
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,68): warning C4305:         ]
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,63): warning C4305: аргумент: усечение из "double" в "T"
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,63): warning C4305:         with
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,63): warning C4305:         [
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,63): warning C4305:             T=float
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(205,63): warning C4305:         ]
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(207,46): warning C4305: аргумент: усечение из "double" в "T"
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(207,46): warning C4305:         with
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(207,46): warning C4305:         [
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(207,46): warning C4305:             T=float
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(207,46): warning C4305:         ]
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(213,48): warning C4305: аргумент: усечение из "double" в "const float"
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(214,48): warning C4305: аргумент: усечение из "double" в "const float"
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(239,49): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(239,49): warning C4244:         with
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(239,49): warning C4244:         [
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(239,49): warning C4244:             T=float
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(239,49): warning C4244:         ]
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(239,44): warning C4305: аргумент: усечение из "double" в "T"
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(239,44): warning C4305:         with
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(239,44): warning C4305:         [
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(239,44): warning C4305:             T=float
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(239,44): warning C4305:         ]
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(239,37): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(239,37): warning C4244:         with
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(239,37): warning C4244:         [
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(239,37): warning C4244:             T=float
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(239,37): warning C4244:         ]
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(239,69): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(239,69): warning C4244:         with
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(239,69): warning C4244:         [
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(239,69): warning C4244:             T=float
+D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(239,69): warning C4244:         ]
+D:\RaisAtaullov\Repos\RayTracingC++\geometry.h(66,42): warning C4244: =: преобразование "U" в "T", возможна потеря данных
+D:\RaisAtaullov\Repos\RayTracingC++\geometry.h(66,42): warning C4244:         with
+D:\RaisAtaullov\Repos\RayTracingC++\geometry.h(66,42): warning C4244:         [
+D:\RaisAtaullov\Repos\RayTracingC++\geometry.h(66,42): warning C4244:             U=double
+D:\RaisAtaullov\Repos\RayTracingC++\geometry.h(66,42): warning C4244:         ]
+D:\RaisAtaullov\Repos\RayTracingC++\geometry.h(66,42): warning C4244:         and
+D:\RaisAtaullov\Repos\RayTracingC++\geometry.h(66,42): warning C4244:         [
+D:\RaisAtaullov\Repos\RayTracingC++\geometry.h(66,42): warning C4244:             T=float
+D:\RaisAtaullov\Repos\RayTracingC++\geometry.h(66,42): warning C4244:         ]
+  (компиляция исходного файла "../Repos/RayTracingC++/RayTracingC++.cpp")
+      D:\RaisAtaullov\Repos\RayTracingC++\geometry.h(66,42):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\RaisAtaullov\Repos\RayTracingC++\RayTracingC++.cpp(123,55):
+          выполняется компиляция ссылки на экземпляр шаблон функции "vec<3,float> operator *<3,float,double>(const vec<3,float> &,const U &)"
+          with
+          [
+              U=double
+          ]
+  
+  ImageGeneration.vcxproj -> D:\RaisAtaullov\ImageGeneration\x64\Debug\ImageGeneration.exe
